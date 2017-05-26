@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - sinatra_development@localhost" uuid="9c5f0951-64ec-4ad6-8b0c-b0191f4b1300">
+      <database-info product="PostgreSQL" version="9.6.2" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>vikkoro</user-name>
+      <introspection-scope>sinatra_development:public,pg_catalog,vikkoro</introspection-scope>
+      <resolve-scope>sinatra_development:public,vikkoro</resolve-scope>
+    </data-source>
+    <data-source name="PostgreSQL - sinatra_test@localhost" uuid="3b69478f-4679-4849-b9a6-c8d23e8529ab">
+      <database-info product="PostgreSQL" version="9.6.2" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>vikkoro</user-name>
+      <introspection-scope>sinatra_test:public,pg_catalog,vikkoro</introspection-scope>
+      <resolve-scope>sinatra_test:public,vikkoro</resolve-scope>
+    </data-source>
+    <data-source name="PostgreSQL - sinatra_production@localhost" uuid="709405cb-8432-4bb8-9cec-58def607c296">
+      <database-info product="PostgreSQL" version="9.6.2" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>vikkoro</user-name>
+      <introspection-scope>sinatra_production:public,pg_catalog,vikkoro</introspection-scope>
+      <resolve-scope>sinatra_production:public,vikkoro</resolve-scope>
+    </data-source>
+  </component>
+</project>

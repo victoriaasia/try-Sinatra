@@ -1,0 +1,45 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    backports (3.8.0)
+    dotenv (2.2.1)
+    multi_json (1.12.1)
+    mustermann (1.0.0)
+    pg (0.20.0-x86-mingw32)
+    rack (2.0.2)
+    rack-protection (2.0.0)
+      rack
+    rake (12.0.0)
+    sequel (4.46.0)
+    sequel-seed (1.0.0)
+      sequel (>= 4.0)
+    sinatra (2.0.0)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.0)
+      tilt (~> 2.0)
+    sinatra-contrib (2.0.0)
+      backports (>= 2.0)
+      multi_json
+      mustermann (~> 1.0)
+      rack-protection (= 2.0.0)
+      sinatra (= 2.0.0)
+      tilt (>= 1.3, < 3)
+    tilt (2.0.7)
+
+PLATFORMS
+  ruby
+  x86-mingw32
+
+DEPENDENCIES
+  dotenv
+  pg
+  rack
+  rake
+  sequel
+  sequel-seed
+  sinatra
+  sinatra-contrib
+
+BUNDLED WITH
+   1.15.0
